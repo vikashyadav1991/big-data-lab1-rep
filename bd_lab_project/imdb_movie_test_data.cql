@@ -1,0 +1,23 @@
+CREATE TABLE imdb_movie_test_data (
+    movie_title text PRIMARY KEY,
+    actor_1_facebook_likes int,
+    actor_1_name text,
+    actor_2_facebook_likes int,
+    actor_2_name text,
+    actor_3_facebook_likes int,
+    actor_3_name text,
+    aspect_ratio double,
+    budget bigint,
+    cast_total_facebook_likes int,
+    color text,
+    content_rating text,
+    country text,
+    director_facebook_likes int,
+    director_name text,
+    duration int,
+    genres text,
+    language text,
+    movie_facebook_likes int,
+    movie_imdb_link text,
+    title_year int
+);
